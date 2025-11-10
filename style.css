@@ -1,0 +1,139 @@
+/*---GLOBAL---*/
+
+:root {
+  font-size: 24px;
+  --accent-color: #0f66b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+/* {
+  outline: red 1px solid;
+}
+
+/*---HEADER---*/
+header {
+  margin-top: 2rem;
+  height: 100vh;
+  width: 1620px;
+  color: white;
+  margin: 0 auto;
+}
+
+.header__img {
+  background-image: url("header-background-img.jpg"),
+    linear-gradient(
+      112.69deg,
+      #000000 7%,
+      rgba(100, 100, 100, 0.6) 55%,
+      #000000 98%
+    );
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  box-shadow: 0px 0px 12px #444;
+  background-size: cover, auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 35%;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-size: 48px;
+}
+
+.logo,
+header h2 {
+  margin: 0;
+}
+
+.nav__list,
+.logo {
+  margin-top: 4rem;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 100px;
+  color: white;
+  margin-top: 6rem;
+}
+
+h1 span {
+  font-weight: 700;
+}
+/*---MAIN---*/
+main {
+  width: 1260px;
+  margin: 0 auto;
+  margin-top: 12%;
+  margin-bottom: 15%;
+}
+
+main h2 {
+  font-size: 50px;
+  color: var(--accent-color);
+  text-align: center;
+  margin: 4rem 0;
+}
+
+main span {
+  color: var(--accent-color);
+}
+
+section {
+  color: #303030;
+}
+
+/*---SISSEJUHATUS---*/
+
+.sissejuhatus {
+  margin-bottom: 9rem;
+}
+.sissejuhatus__content {
+  display: flex;
+  justify-content: center;
+}
+
+.sissejuhatus img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 80px;
+  box-shadow: 0px 4px 10px #ccc;
+}
+
+.sissejuhatus span {
+  font-size: 36px;
+  font-weight: bold;
+}
