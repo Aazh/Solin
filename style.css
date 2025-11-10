@@ -137,3 +137,34 @@ section {
   font-size: 36px;
   font-weight: bold;
 }
+
+/* --- arutlev_tekst --- */
+html, body { height: 100%; }
+
+body.arutlev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.arutlev-center {
+  max-width: 900px;
+  padding: 28px;
+  text-align: center;
+  background: #fff;
+  color: #222;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  border-radius: 8px;
+}
+
+.arutlev-center p + p {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.arutlev-center h1 { margin: 0 0 12px; font-size: 1.6rem; color: #000; }
+.arutlev-center p { margin: 0; font-size: 1rem; line-height: 1.5; }
+
+
